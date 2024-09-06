@@ -1,0 +1,73 @@
+name: super_vpn_app
+description: Flutter Android VPN based on OpenVPN Library.
+publish_to: 'none'
+
+# App Version
+version: 1.0.0+2
+
+environment:
+  sdk: ">=3.0.5 <4.0.0"
+
+# App dependencies
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.5
+  get:
+  flutter_screenutil:
+  flutter_svg:
+  pin_code_fields:
+  font_awesome_flutter:
+  flutter_rating_bar:
+  country_code_picker:
+  get_storage:
+  image_picker:
+  firebase_auth:
+  firebase_core:
+  firebase_core_dart:
+  google_fonts:
+  http:
+  flutter_spinkit:
+  connectivity_plus:
+  logger:
+  csv:
+  google_mobile_ads:
+  flutter_inappwebview:
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+#  flutter_launcher_icons: ^0.13.1
+  change_app_package_name: ^1.1.0
+  flutter_app_name: ^0.1.0
+#
+flutter_app_name:
+  name: "MAUS vpn"
+
+flutter:
+  # Enabling material design
+  uses-material-design: true
+
+  # App assets
+  assets:
+    - assets/
+    - assets/flags/
+    - assets/images/auth/
+    - assets/images/connection_report/
+    - assets/images/dashboard/
+    - assets/images/drawer/
+    - assets/images/flag/
+    - assets/images/screen/
+    - assets/images/splash/
+    - assets/images/upgrade/
+    - assets/images/vpn_connect/
+    - assets/images/vpn_location/
+    - assets/images/welcome/
+    - assets/logo/
+    - assets/onboards/
+    - assets/vpn/

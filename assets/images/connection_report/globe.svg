@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="Group_502" data-name="Group 502" transform="translate(-60 -145)">
+    <circle id="Ellipse_22" data-name="Ellipse 22" cx="20" cy="20" r="20" transform="translate(60 145)" fill="#00586b"/>
+    <g id="Group_486" data-name="Group 486" transform="translate(9 116)">
+      <g id="Ellipse_16" data-name="Ellipse 16" transform="translate(59 38)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1" stroke-dasharray="20 3">
+        <circle cx="11.5" cy="11.5" r="11.5" stroke="none"/>
+        <circle cx="11.5" cy="11.5" r="11" fill="none"/>
+      </g>
+      <path id="Icon_metro-vpn-publ" data-name="Icon metro-vpn-publ" d="M13.641,5.141a8.5,8.5,0,1,0,8.5,8.5A8.5,8.5,0,0,0,13.641,5.141Zm-.85,15.24a6.794,6.794,0,0,1-5.95-6.74A6.655,6.655,0,0,1,7.02,12.12l4.071,4.071v.85a1.7,1.7,0,0,0,1.7,1.7Zm5.861-2.155a1.689,1.689,0,0,0-1.611-1.186h-.85v-2.55a.852.852,0,0,0-.85-.85h-5.1v-1.7h1.7a.852.852,0,0,0,.85-.85v-1.7h1.7a1.7,1.7,0,0,0,1.7-1.7V7.339a6.788,6.788,0,0,1,2.461,10.888Z" transform="translate(56.859 35.858)" fill="#fff"/>
+      <circle id="Ellipse_17" data-name="Ellipse 17" cx="1.5" cy="1.5" r="1.5" transform="translate(80 50)" fill="#fff"/>
+      <circle id="Ellipse_18" data-name="Ellipse 18" cx="1.5" cy="1.5" r="1.5" transform="translate(63 57)" fill="#fff"/>
+      <circle id="Ellipse_19" data-name="Ellipse 19" cx="1.5" cy="1.5" r="1.5" transform="translate(63 39)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
