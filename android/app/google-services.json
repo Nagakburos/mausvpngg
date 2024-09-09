@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "410973684247",
-    "project_id": "mausvpn-5c579",
-    "storage_bucket": "mausvpn-5c579.appspot.com"
+    "project_number": "799426423100",
+    "project_id": "nmausvpn",
+    "storage_bucket": "nmausvpn.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:410973684247:android:f09242766520f9fe68d252",
+        "mobilesdk_app_id": "1:799426423100:android:f5cabc78973814afdad639",
         "android_client_info": {
           "package_name": "com.nagakaburos.mausvpn"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyANXu9fzEStxq9xEllPyO1JYKvTpOX0sUY"
+          "current_key": "AIzaSyDjdxrkFvtBVfFEms7TauPxpdK2_1yhBSM"
         }
       ],
       "services": {

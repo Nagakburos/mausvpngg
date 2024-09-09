@@ -44,7 +44,7 @@
         <!--google admob-->
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-9932971012663465/9661336473" /> // MEU ID
+            android:value="ca-app-pub-9932971012663465~6017604934" /> // APP ID
 
         <activity
             android:name="de.blinkt.openvpn.DisconnectVPNActivity"

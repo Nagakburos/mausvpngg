@@ -41,49 +41,49 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyANXu9fzEStxq9xEllPyO1JYKvTpOX0sUY',
-    appId: '1:410973684247:android:f09242766520f9fe68d252',
-    messagingSenderId: '410973684247',
-    projectId: 'mausvpn-5c579',
-    storageBucket: 'mausvpn-5c579.appspot.com',
+    apiKey: 'AIzaSyDjdxrkFvtBVfFEms7TauPxpdK2_1yhBSM',
+    appId: '1:799426423100:android:f5cabc78973814afdad639',
+    messagingSenderId: '799426423100',
+    projectId: 'nmausvpn',
+    storageBucket: 'nmausvpn.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyDPYZD89uEld_oLlBi9t5lIWUlIrPnXiZk',
-    appId: '1:410973684247:ios:da89fa67baef781f68d252',
-    messagingSenderId: '410973684247',
-    projectId: 'mausvpn-5c579',
-    storageBucket: 'mausvpn-5c579.appspot.com',
+    apiKey: 'AIzaSyDLtq1wBeS-OFk-wE06EJEcvF_WX2-p5ww',
+    appId: '1:799426423100:ios:b0c0fa6e9c3a5877dad639',
+    messagingSenderId: '799426423100',
+    projectId: 'nmausvpn',
+    storageBucket: 'nmausvpn.appspot.com',
     iosBundleId: 'net.appdevs.suppervpn',
   );
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyA6DnqE27c9TjvdtOT_c6eROn8omqrL8BI',
-    appId: '1:410973684247:web:8d0c60e93f95035268d252',
-    messagingSenderId: '410973684247',
-    projectId: 'mausvpn-5c579',
-    authDomain: 'mausvpn-5c579.firebaseapp.com',
-    storageBucket: 'mausvpn-5c579.appspot.com',
-    measurementId: 'G-XQZ6XNCHLL',
+    apiKey: 'AIzaSyCID6o87YKREM1SIL1ixgQ29NRmBrZfM3E',
+    appId: '1:799426423100:web:4115215d2e7c0c1edad639',
+    messagingSenderId: '799426423100',
+    projectId: 'nmausvpn',
+    authDomain: 'nmausvpn.firebaseapp.com',
+    storageBucket: 'nmausvpn.appspot.com',
+    measurementId: 'G-2PSHGRQZ0K',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyDPYZD89uEld_oLlBi9t5lIWUlIrPnXiZk',
-    appId: '1:410973684247:ios:8b4ec891836954de68d252',
-    messagingSenderId: '410973684247',
-    projectId: 'mausvpn-5c579',
-    storageBucket: 'mausvpn-5c579.appspot.com',
+    apiKey: 'AIzaSyDLtq1wBeS-OFk-wE06EJEcvF_WX2-p5ww',
+    appId: '1:799426423100:ios:101fc836bad4b82edad639',
+    messagingSenderId: '799426423100',
+    projectId: 'nmausvpn',
+    storageBucket: 'nmausvpn.appspot.com',
     iosBundleId: 'com.nagakaburos.mausvpn',
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyA6DnqE27c9TjvdtOT_c6eROn8omqrL8BI',
-    appId: '1:410973684247:web:30b95d10ca93dd5b68d252',
-    messagingSenderId: '410973684247',
-    projectId: 'mausvpn-5c579',
-    authDomain: 'mausvpn-5c579.firebaseapp.com',
-    storageBucket: 'mausvpn-5c579.appspot.com',
-    measurementId: 'G-1PQECPM5NF',
+    apiKey: 'AIzaSyCID6o87YKREM1SIL1ixgQ29NRmBrZfM3E',
+    appId: '1:799426423100:web:c124ff73effb3756dad639',
+    messagingSenderId: '799426423100',
+    projectId: 'nmausvpn',
+    authDomain: 'nmausvpn.firebaseapp.com',
+    storageBucket: 'nmausvpn.appspot.com',
+    measurementId: 'G-50XPXWTZEZ',
   );
 
 }
