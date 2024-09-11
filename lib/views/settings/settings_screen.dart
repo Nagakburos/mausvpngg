@@ -17,7 +17,7 @@ class SettingsScreen extends StatelessWidget {
     return Obx(() => Scaffold(
           backgroundColor: darkController.isDark.value
               ? CustomColor.dialogueBGColor
-              : CustomColor.bgGradietEndColor,
+              : CustomColor.bgGradietEndColor,//bgGradietStartColor
           appBar: AppBar(
             backgroundColor: darkController.isDark.value
                 ? CustomColor.black

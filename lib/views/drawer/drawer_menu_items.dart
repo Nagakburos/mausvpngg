@@ -11,21 +11,21 @@ class MenuItems {
 
   static const MenuItemModel currentLocation =  MenuItemModel(
     Strings.currentLocation,
-    Icons.pin_drop_rounded,
+    Icons.location_on,
   );
 
-  static const MenuItemModel aboutUs =  MenuItemModel(
-    Strings.aboutUs,
-    Icons.info_outline_rounded,
+  static const MenuItemModel2 aboutUs =  MenuItemModel2(
+    //Strings.aboutUs,
+    //Icons.info_outline,
   );
 
   static const MenuItemModel policy =  MenuItemModel(
     Strings.privacyAndPolicy,
-    Icons.shield_outlined,
+    Icons.newspaper_rounded,
   );
-  static const MenuItemModel settings =  MenuItemModel(
-    Strings.settings,
-    Icons.settings_outlined,
+  static const MenuItemModel2 settings =  MenuItemModel2(
+    //Strings.settings,
+    //Icons.edit_document,
   );
   // static const MenuItemModel logout =  MenuItemModel(
   //   Strings.logout,
@@ -36,9 +36,9 @@ class MenuItems {
     // upgrade,
     // myAccount,
     currentLocation,
-    aboutUs,
     policy,
-    settings,
+    //aboutUs,
+    //settings,
     // logout,
   ];
 }

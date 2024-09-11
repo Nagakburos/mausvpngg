@@ -108,7 +108,7 @@ class HomeScreen extends StatelessWidget {
                                   .singleVpnData.first.countryShort!.isEmpty
                               ? CircleAvatar(
                                   radius: 35.r,
-                                  backgroundColor: CustomColor.primaryColor,
+                                  backgroundColor: CustomColor.bgGradietStartColor,//primaryColor
                                   child: Icon(
                                     Icons.vpn_lock_rounded,
                                     size: 40.r,
@@ -137,7 +137,7 @@ class HomeScreen extends StatelessWidget {
                           subtitle: "PING",
                           icon: CircleAvatar(
                             radius: 35.r,
-                            backgroundColor: CustomColor.primaryColor,
+                            backgroundColor: CustomColor.bgGradietStartColor,//primaryColor
                             child: Icon(
                               Icons.equalizer_outlined,
                               size: 40.r,
@@ -157,9 +157,9 @@ class HomeScreen extends StatelessWidget {
                             subtitle: "DOWNLOAD",
                             icon: CircleAvatar(
                               radius: 35.r,
-                              backgroundColor: CustomColor.primaryColor,
+                              backgroundColor: CustomColor.bgGradietStartColor,//primaryColor
                               child: Icon(
-                                Icons.arrow_circle_down_rounded,
+                                Icons.download,
                                 size: 40.r,
                               ),
                             ),
@@ -169,9 +169,9 @@ class HomeScreen extends StatelessWidget {
                             subtitle: "UPLOAD",
                             icon: CircleAvatar(
                               radius: 35.r,
-                              backgroundColor: CustomColor.primaryColor,
+                              backgroundColor: CustomColor.bgGradietStartColor,//primaryColor
                               child: Icon(
-                                Icons.arrow_circle_up_rounded,
+                                Icons.upload,
                                 size: 40.r,
                               ),
                             ),

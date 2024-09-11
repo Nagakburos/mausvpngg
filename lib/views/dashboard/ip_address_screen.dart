@@ -24,11 +24,11 @@ class IpAddressScreen extends StatelessWidget {
       return Scaffold(
         backgroundColor: controller.darkController.isDark.value
             ? CustomColor.dialogueBGColor
-            : CustomColor.white,
+            : CustomColor.black,
         appBar: AppBar(
           backgroundColor: controller.darkController.isDark.value
-              ? CustomColor.primaryColor.withOpacity(0.5)
-              : CustomColor.primaryColor,
+              ? CustomColor.primaryColor.withOpacity(0.5) //primaryColor
+              : CustomColor.primaryColor,//primaryColor//bgGradietStartColor
           leading: InkWell(
             onTap: () => Get.back(),
             child: const Icon(Icons.arrow_back_ios),
@@ -72,30 +72,31 @@ class IpAddressScreen extends StatelessWidget {
           ),
           listTileItem(
             title: "IP Address",
-            icon: Icon(Icons.pin_drop_rounded, color: Colors.blue, size: 40),
+            icon: Icon(Icons.pin_drop_rounded, color: Colors.white, size: 40),
             subTitle: controller.ipAddressModel.query,
           ),
           listTileItem(
             title: "Internet Provider",
             icon:
-                Icon(Icons.location_city, color: Colors.orangeAccent, size: 40),
+                Icon(Icons.location_city, color: Colors.white, size: 40),
             subTitle: controller.ipAddressModel.isp,
           ),
           listTileItem(
             title: "Location",
-            icon: Icon(Icons.my_location, color: Colors.pinkAccent, size: 40),
+            icon: Icon(Icons.my_location, color: Colors.white, size: 40),
             subTitle: controller.ipAddressModel.country.isEmpty
                 ? 'Fetching...'
-                : "${controller.ipAddressModel.city}, ${controller.ipAddressModel.regionName}, ${controller.ipAddressModel.country}",
+                : "${controller.ipAddressModel.city}, ${controller
+                .ipAddressModel.regionName}, ${controller.ipAddressModel.country}",
           ),
           listTileItem(
             title: "Pin-code",
-            icon: Icon(Icons.password, color: Colors.blueAccent, size: 40),
+            icon: Icon(Icons.password, color: Colors.white, size: 40),
             subTitle: controller.ipAddressModel.zip,
           ),
           listTileItem(
             title: "Timezone",
-            icon: Icon(Icons.access_time, color: Colors.greenAccent, size: 40),
+            icon: Icon(Icons.access_time, color: Colors.white, size: 40),
             subTitle: controller.ipAddressModel.timezone,
           ),
           SizedBox(
@@ -119,7 +120,7 @@ class IpAddressScreen extends StatelessWidget {
           horizontal: Dimensions.marginSizeHorizontal * 0.5,
           vertical: Dimensions.marginSizeVertical * 0.3),
       decoration: BoxDecoration(
-        color: CustomColor.white,
+        color: CustomColor.mediumColor,
         borderRadius: BorderRadius.circular(Dimensions.radius * 0.5),
         boxShadow: [
           BoxShadow(

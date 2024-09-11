@@ -15,7 +15,7 @@ class CustomStyle {
       end: Alignment.bottomCenter,
       colors: [
         CustomColor.bgGradietStartColor,
-        CustomColor.bgGradietEndColor,
+        CustomColor.bgGradietEndColor, //
       ],
     ),
   );

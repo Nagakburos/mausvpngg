@@ -40,10 +40,10 @@ class MyApp extends StatelessWidget {
         },
         theme: ThemeData(
           canvasColor: CustomColor.white,
-          primaryColor: CustomColor.primaryColor,
+          primaryColor: CustomColor.bgGradietStartColor, //primaryColor
           fontFamily: GoogleFonts.josefinSans().fontFamily,
           appBarTheme: AppBarTheme(
-            color: CustomColor.primaryColor,
+            color: CustomColor.bgGradietStartColor,//primaryColor
           ),
         ),
         title: Strings.appName,

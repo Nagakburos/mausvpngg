@@ -6,7 +6,7 @@ class Strings {
   // app bar name
   static const String vpnLocations = 'VPN Locations';
   static const String ipAddress = 'Ip Address';
-  static const String settings = 'Settings';
+  static const String settings = '';// Settings
   static const String currentLocation = 'Current Location';
 
   //? Confirmation Screen
@@ -20,7 +20,7 @@ class Strings {
   static const String fastSpeed = 'ready for';
     static const String startFreeTrial = 'Escape';
   static const String cancelBill =
-      'Recurring billing. Cancel anytime on Google Play Store';
+      '';//Recurring billing. Cancel anytime on Google Play Store
   static const String agreeTerms =
       'By Using this app, you agree to our Privacy Policy';
 
@@ -32,7 +32,7 @@ class Strings {
 
   //? Vpn Connect Screen
   static const String connectionTime = 'Connection Time';
-  static const String subscribeFor = 'Subscribe for better connection speed';
+  static const String subscribeFor = ''; //Subscribe for better connection speed
   static const String subscribe = 'Subscribe';
   static const String ip = 'IP';
   static const String ipaddress = '79.110.53.155';
@@ -51,7 +51,7 @@ class Strings {
   static const String themeChange = 'Change Theme';
   static const String helpCenter = 'Help Center';
   static const String privacyAndPolicy = 'Privacy & Policy';
-  static const String aboutUs = 'About Us';
+  static const String aboutUs = 'About Us';//
 }
 
 class IconPath {

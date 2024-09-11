@@ -9,3 +9,9 @@ class MenuItemModel {
     this.icon,
   );
 }
+class MenuItemModel2 {
+   const MenuItemModel2(
+
+
+  );
+}
