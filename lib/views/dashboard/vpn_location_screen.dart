@@ -28,7 +28,7 @@ class VpnLocationScreen extends StatelessWidget {
       return Scaffold(
         backgroundColor: controller.darkController.isDark.value
             ? CustomColor.dialogueBGColor
-            : CustomColor.white,
+            : CustomColor.black,
         appBar: AppBar(
           backgroundColor: controller.darkController.isDark.value
               ? CustomColor.primaryColor.withOpacity(0.5)
@@ -130,7 +130,7 @@ class VpnLocationScreen extends StatelessWidget {
             horizontal: Dimensions.marginSizeHorizontal * 0.5,
             vertical: Dimensions.marginSizeVertical * 0.3),
         decoration: BoxDecoration(
-          color: CustomColor.white,
+          color: CustomColor.mediumColor,
           borderRadius: BorderRadius.circular(Dimensions.radius * 0.5),
           boxShadow: [
             BoxShadow(

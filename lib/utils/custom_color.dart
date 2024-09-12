@@ -12,6 +12,7 @@ class CustomColor {
   static const Color bgGradietEndColor = Color(0xFF707070); // color change theme white
   static  Color primaryColor =  const Color(0xFF707070);
   static const Color progressbarColor = Color(0xFF10FA00);
+  static const Color transparenceColor = Color(0x2F707070);
 
   static const Color white = Colors.white;
   static const Color black = Colors.black;// color theme aba menu White
@@ -27,7 +28,8 @@ class CustomColor {
   static const Color packageCardSideColor = Color(0xFFFFFFFF); // letras aba de menu
   static const Color renewButtonColor = Color(0xFFFF3600);
   static const Color drawerBgColor = Color(0xFFD1AFFF);
-  static const Color onlineColor = Color(0xFF00FF11);
+  static const Color onlineColor = Color(0x6B00FF11);
+  static const Color yellowColor = Color(0x73ECD703);
 
 
 

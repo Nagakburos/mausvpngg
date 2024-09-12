@@ -39,7 +39,7 @@ class MyApp extends StatelessWidget {
           );
         },
         theme: ThemeData(
-          canvasColor: CustomColor.white,
+          canvasColor: CustomColor.black,
           primaryColor: CustomColor.bgGradietStartColor, //primaryColor
           fontFamily: GoogleFonts.josefinSans().fontFamily,
           appBarTheme: AppBarTheme(

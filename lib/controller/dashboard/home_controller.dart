@@ -63,13 +63,13 @@ class HomeController extends GetxController {
   Color get getButtonColor {
     switch (vpnState.value) {
       case VpnEngine.vpnDisconnected:
-        return CustomColor.primaryColor;
+        return CustomColor.transparenceColor;//primaryColor
 
       case VpnEngine.vpnConnected:
         return CustomColor.greenColor;
 
       default:
-        return Colors.orangeAccent;
+        return CustomColor.yellowColor; //orangeAccent
     }
   }
 
