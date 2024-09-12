@@ -69,7 +69,7 @@ class HomeScreen extends StatelessWidget {
             : Container(
                 width: double.infinity,
                 height: double.infinity,
-                // alignment: Alignment.bottomCenter,
+                alignment: Alignment.bottomCenter,
                 padding: EdgeInsets.symmetric(vertical: Dimensions.paddingSize),
                 decoration: const BoxDecoration(
                   image: DecorationImage(
@@ -111,6 +111,7 @@ class HomeScreen extends StatelessWidget {
                                   backgroundColor: CustomColor.bgGradietStartColor,//primaryColor
                                   child: Icon(
                                     Icons.vpn_lock_rounded,
+                                    color: CustomColor.iconColor,
                                     size: 40.r,
                                   ),
                                 )
@@ -140,6 +141,7 @@ class HomeScreen extends StatelessWidget {
                             backgroundColor: CustomColor.bgGradietStartColor,//primaryColor
                             child: Icon(
                               Icons.equalizer_outlined,
+                              color: CustomColor.iconColor,
                               size: 40.r,
                             ),
                           ),
@@ -160,6 +162,7 @@ class HomeScreen extends StatelessWidget {
                               backgroundColor: CustomColor.bgGradietStartColor,//primaryColor
                               child: Icon(
                                 Icons.download,
+                                color: CustomColor.iconColor,
                                 size: 40.r,
                               ),
                             ),
@@ -172,6 +175,7 @@ class HomeScreen extends StatelessWidget {
                               backgroundColor: CustomColor.bgGradietStartColor,//primaryColor
                               child: Icon(
                                 Icons.upload,
+                                color: CustomColor.iconColor,
                                 size: 40.r,
                               ),
                             ),
@@ -222,18 +226,19 @@ class HomeScreen extends StatelessWidget {
               },
               borderRadius: BorderRadius.circular(160.r),
               child: Container(
-                padding: const EdgeInsets.all(16),
+                padding: const EdgeInsets.all(16),//16
                 decoration: BoxDecoration(
                     shape: BoxShape.circle,
                     color: controller.getButtonColor.withOpacity(0.1)),
                 child: Container(
-                  padding: const EdgeInsets.all(16),
+                  padding: const EdgeInsets.all(16),//16
                   decoration: BoxDecoration(
                       shape: BoxShape.circle,
                       color: controller.getButtonColor.withOpacity(0.3)),
                   child: Container(
-                    height: 160.h,
-                    width: 160.w,
+                    height: 170.h,
+                    width: 170.w,
+                    alignment: Alignment.bottomCenter,
                     decoration: BoxDecoration(
                         shape: BoxShape.circle,
                         color: controller.getButtonColor),
@@ -241,13 +246,13 @@ class HomeScreen extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Image.asset(IconPath.worldPath),
-                        Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: Text(
-                            controller.getButtonText,
-                            style: CustomStyle.tabToConnectTitleTextStyle,
-                          ),
-                        ),
+                        //Padding(
+                         // padding: const EdgeInsets.all(8.0),
+                          //child: Text(
+                            //controller.getButtonText,
+                            //style: CustomStyle.tabToConnectTitleTextStyle,
+                          //),
+                        //),
                       ],
                     ),
                   ),

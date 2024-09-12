@@ -13,6 +13,7 @@ class CustomColor {
   static  Color primaryColor =  const Color(0xFF707070);
   static const Color progressbarColor = Color(0xFF10FA00);
   static const Color transparenceColor = Color(0x2F707070);
+  static const Color iconColor = Color(0xFF5A0000);
 
   static const Color white = Colors.white;
   static const Color black = Colors.black;// color theme aba menu White

@@ -198,7 +198,7 @@ class CustomStyle {
     fontSize: Dimensions.smallTextSize,
   );
   static var speedTextStyle = TextStyle(
-    color: Colors.black,
+    color: Colors.white,
     fontSize: Dimensions.smallTextSize,
   );
   static var speedTextStyleDark = TextStyle(
