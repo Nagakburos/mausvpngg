@@ -15,7 +15,7 @@ class CustomStyle {
       end: Alignment.bottomCenter,
       colors: [
         CustomColor.bgGradietStartColor,
-        CustomColor.bgGradietEndColor, //
+        CustomColor.bgGradietEndColor,
       ],
     ),
   );
@@ -25,8 +25,8 @@ class CustomStyle {
       begin: Alignment.topCenter,
       end: Alignment.bottomCenter,
       colors: [
-        CustomColor.dialogueBGColor,
-        CustomColor.bgGradietEndColor,
+        CustomColor.black,//dialogueBGColor,
+        CustomColor.black,//bgGradietEndColor,
       ],
     ),
   );

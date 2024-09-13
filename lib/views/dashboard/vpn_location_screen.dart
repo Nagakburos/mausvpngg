@@ -31,8 +31,8 @@ class VpnLocationScreen extends StatelessWidget {
             : CustomColor.black,
         appBar: AppBar(
           backgroundColor: controller.darkController.isDark.value
-              ? CustomColor.primaryColor.withOpacity(0.5)
-              : CustomColor.primaryColor,
+              ? CustomColor.black.withOpacity(0.5)
+              : CustomColor.black,
           leading: InkWell(
             onTap: () => Get.back(),
             child: const Icon(Icons.arrow_back_ios),

@@ -21,8 +21,8 @@ class CustomColor {
   static  Color primaryTextColor = isDark ? Colors.white : Colors.black;
 
   
-  static const Color secondaryColor = Color(0xFF707070);
-  static const Color dialogueBGColor = Color(0xFF000000);
+  static const Color secondaryColor = Color(0xFF000000);//black
+  static const Color dialogueBGColor = Color(0xFF131313);//black
   static const Color bottomNavBgColor = Color(0xFF138B00);
   static const Color bottomNavUnselectedColor = Color(0xFF146B00);
   static const Color packageCardBgColor = Color(0xFFECD703);

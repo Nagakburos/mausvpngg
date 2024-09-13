@@ -34,7 +34,7 @@ class VpnConnectScreen extends StatelessWidget {
       key: _scaffoldKey,
       drawer:  CustomDrawer(),
       appBar: AppBar(
-        backgroundColor: darkController.isDark.value ? CustomColor.black : CustomColor.primaryColor,
+        backgroundColor: darkController.isDark.value ? CustomColor.black : CustomColor.black,
         leading: InkWell(
           onTap: (){
             _scaffoldKey.currentState!.openDrawer();

@@ -27,8 +27,8 @@ class IpAddressScreen extends StatelessWidget {
             : CustomColor.black,
         appBar: AppBar(
           backgroundColor: controller.darkController.isDark.value
-              ? CustomColor.primaryColor.withOpacity(0.5) //primaryColor
-              : CustomColor.primaryColor,//primaryColor//bgGradietStartColor
+              ? CustomColor.black.withOpacity(0.5) //primaryColor
+              : CustomColor.black,//primaryColor//bgGradietStartColor
           leading: InkWell(
             onTap: () => Get.back(),
             child: const Icon(Icons.arrow_back_ios),

@@ -19,7 +19,7 @@ class WebPaymentScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: CustomColor.primaryColor,
+        backgroundColor: CustomColor.bgGradietStartColor,
         leading: InkWell(
           onTap: () => Get.back(),
           child: const Icon(Icons.arrow_back_ios),

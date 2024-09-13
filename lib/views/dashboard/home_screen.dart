@@ -42,7 +42,7 @@ class HomeScreen extends StatelessWidget {
         appBar: AppBar(
           backgroundColor: controller.darkController.isDark.value
               ? CustomColor.black
-              : CustomColor.primaryColor,
+              : CustomColor.black,//Muda a Cor appBar
           leading: InkWell(
               onTap: () {
                 _scaffoldKey.currentState!.openDrawer();

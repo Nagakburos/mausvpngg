@@ -21,7 +21,7 @@ class SettingsScreen extends StatelessWidget {
           appBar: AppBar(
             backgroundColor: darkController.isDark.value
                 ? CustomColor.black
-                : CustomColor.primaryColor,
+                : CustomColor.black,
             leading: InkWell(
               onTap: () => Get.back(),
               child: const Icon(Icons.arrow_back_ios),
