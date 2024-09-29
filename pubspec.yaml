@@ -35,6 +35,7 @@ dependencies:
   csv:
   google_mobile_ads:
   flutter_inappwebview:
+  dio:
 
 
 

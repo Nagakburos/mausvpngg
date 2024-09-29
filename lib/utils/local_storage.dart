@@ -243,18 +243,33 @@ class LocalStorage {
   }
 
   static List<VpnModel> getVpnSingleData() {
-    VpnModel data = VpnModel(
-      hostName: "",
-      ip: "",
-      ping: 0,
-      speed: 0,
-      countryLong: "",
-      countryShort: "",
-      numVpnSessions: 0,
-      openVpnConfigDataBase64: "",
-    );
+    // VpnModel data = VpnModel(
+    //   hostName: "",
+    //   ip: "",
+    //   ping: 0,
+    //   speed: 0,
+    //   countryLong: "",
+    //   countryShort: "",
+    //   numVpnSessions: 0,
+    //   openVpnConfigDataBase64: "",
+    // );
 
-    return GetStorage().read(vpnSingleList) ?? [data];
+    List<dynamic> dynamicList = GetStorage().read(vpnSingleList) ?? [];
+
+    print(dynamicList);
+    List<VpnModel> convertedList = [];
+
+    try{
+      convertedList = dynamicList.map((item){
+        return item as VpnModel;
+      }).toList();
+    }catch(e){
+      convertedList = dynamicList.map((item){
+        return VpnModel.fromJson(item);
+      }).toList();
+    }
+
+    return convertedList;
   }
 
   static String? getEmail() {

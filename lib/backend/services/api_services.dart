@@ -22,7 +22,7 @@ class ApiServices {
       final res =
           await client.get(Uri.parse("https://www.vpngate.net/api/iphone/"));
 
-      final csvString = res.body.split("#")[1].replaceAll('*', '');
+      final csvString = res.body.split("#")[1].replaceAll("*", "");
 
       List<List<dynamic>> list = const CsvToListConverter().convert(csvString);
 

@@ -17,7 +17,7 @@ class Strings {
   //? Welcome Screen
   static const String skip = '';
 
-  static const String fastSpeed = 'ready for';
+  static const String fastSpeed = ''; //ready for
     static const String startFreeTrial = 'Escape';
   static const String cancelBill =
       '';//Recurring billing. Cancel anytime on Google Play Store
