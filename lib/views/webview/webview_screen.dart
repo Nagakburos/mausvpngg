@@ -40,7 +40,7 @@ class WebPaymentScreen extends StatelessWidget {
     return Stack(
       children: [
         InAppWebView(
-          initialUrlRequest: URLRequest(url: Uri.parse(paymentUrl)),
+          initialUrlRequest: URLRequest(url: WebUri.uri(Uri.parse(paymentUrl))),
           onWebViewCreated: (controller) {
             webViewController = controller;
             controller.addJavaScriptHandler(
